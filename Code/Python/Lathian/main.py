@@ -27,8 +27,31 @@ def bio()
 				player_Pronoun_Objective = "Hir"
 				player_Pronoun_Possessive = "Hirs"
 				player_Pronoun_Reflexive = "Hirself"
+				pronoun_Selected = True
+			elif player_Pronouns == 2:
+				player_Pronoun_Subjective = "Xe"
+				player_Pronoun_Objective = "Xem"
+				player_Pronoun_Possessive = "Xirs"
+				player_Pronoun_Reflexive = "Xemself"
 				proboun_Selected = True
-
+			elif player_Pronouns == 3:
+				player_Pronoun_Subjective = "Ver"
+				player_Pronoun_Objective = "Vir"
+				player_Pronoun_Possessive = "Vis"
+				player_Pronoun_Reflexive = "Verself"
+				proboun_Selected = True
+			elif player_Pronouns == 4:
+				player_Pronoun_Subjective = "Te"
+				player_Pronoun_Objective = "Tem"
+				player_Pronoun_Possessive = "Ter"
+				player_Pronoun_Reflexive = "Temself"
+				proboun_Selected = True				
+			elif player_Pronouns == 5:
+				player_Pronoun_Subjective = "Ey"
+				player_Pronoun_Objective = "Em"
+				player_Pronoun_Possessive = "Eir"
+				player_Pronoun_Reflexive = "Emself"
+				proboun_Selected = True		
 		else :
 			print ("Please input the number of your selection")
 	bio = (player_Pronoun_Subjective, player_Pronoun_objective, player_Pronoun_Possessive, player_Pronoun_Reflexive,)
