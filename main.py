@@ -55,9 +55,10 @@ def bio()
 		else :
 			print ("Please input the number of your selection")
 	bio = (player_Pronoun_Subjective, player_Pronoun_objective, player_Pronoun_Possessive, player_Pronoun_Reflexive,)
+	return bio
 print ("Weclome to Lathian")
 player_Name = input("What's your name?")
 print ("Ok, ", player_Name, ".")
-y/n_temp = print ("Do you mind if i ask you a few questions?\nY/N")
+y/n_temp = print ("Do you mind if I ask you a few questions?")
 if y/n_temp == y:
 	bio()
