@@ -1,3 +1,4 @@
+import invalid_Input
 def get_pronouns():
 	while True:
 		player_Pronouns = input ("What would you like to be refered to by?\n1. Masculin pronouns(he/him)\n2. feminine pronouns(she/her)\n3. nuetral pronouns(they/them)\n4. other\n")
@@ -59,9 +60,9 @@ def get_pronouns():
 					player_Pronoun_Reflexive = player_Pronoun_Objective + "self"
 					break
 				else :
-					print ("Please input the number of your selection")
+					invalid_Input
 			break
 		else :
-			print ("Please input the number of your selection")
+			invalid_Input
 	pronouns = dict (subjective = player_Pronoun_Subjective, objective = player_Pronoun_Objective, possessive = player_Pronoun_Possessive, reflexive = player_Pronoun_Reflexive,)
 	return pronouns
